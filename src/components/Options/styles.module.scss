@@ -1,0 +1,41 @@
+.options-wrapper {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.proxy-box {
+    position: relative;
+}
+
+.new-proxy {
+    position: absolute;
+    z-index: 9;
+    top: -35px;
+    right: 0;
+}
+
+
+.storage-box {
+    position: relative;
+
+    .new-storage {
+        position: absolute;
+        top: -35px;
+        right: 0;
+        z-index: 9;
+    }
+}
+
+.storage-modal-body {
+    padding-top: 20px;
+}

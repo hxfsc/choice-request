@@ -1,0 +1,17 @@
+.popup-wrapper {
+    width: 420px;
+    margin: 0 auto;
+
+    .alert-tips {
+        min-height: 60px;
+        width: 100%;
+        word-break: break-all;
+    }
+}
+
+
+.configure-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
